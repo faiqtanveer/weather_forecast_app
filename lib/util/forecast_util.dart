@@ -1,15 +1,12 @@
 import 'package:intl/intl.dart';
 
-class ForecastUtil{
+class Util
+{
+  // static String appId = "ADD YOUR OWN APPID";
+  static String appId = "ed60fcfbd110ee65c7150605ea8aceea";
 
-  static String appid ="4e6aa6cf8c112f9e4d484ca07042d130";
-
-  static String getFormattedDate(DateTime datetime){
-
-    return DateFormat("EEE, MMM d, y").format(datetime);
-  }
-
-  static String getFormattedTime(DateTime dateTime){
-    return DateFormat("Hm").format(dateTime);
+  static String getFormattedDate(DateTime dateTime)
+  {
+    return DateFormat("EEEE, MMM d, y").format(dateTime);
   }
 }

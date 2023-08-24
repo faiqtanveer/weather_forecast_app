@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Widget getWeatherIcon({required String weatherDescription,required double size}){
+Widget getWeatherIcon({required String? weatherDescription,required double size}){
 
   switch(weatherDescription){
     case "clear":
